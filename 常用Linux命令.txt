@@ -1,0 +1,2 @@
+1. androidStudio升级权限不够的命令：
+   sudo chmod -777 /home/mopeng/dev-tools/android-studio
