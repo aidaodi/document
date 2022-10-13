@@ -1,2 +1,6 @@
 1. androidStudio升级权限不够的命令：
    sudo chmod -777 /home/mopeng/dev-tools/android-studio
+
+2. 查看指定应用程序冷启动时间的命令
+    adb shell am start -W -S <包名/完整类名> 
+    eg: adb shell am start -W -S com.mskj.ihk.ihkbusiness/ui.FlashActivity
