@@ -117,3 +117,23 @@
     3. sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
     4. sudo apt-get update
     5. sudo apt-get upgrade 
+
+### Ubuntu防火墙设置
+    1.查看防火墙当前状态
+      sudo ufw status
+    2.开启防火墙
+      sudo ufw enable
+    3.关闭防火墙
+      sudo ufw disable
+    4.查看防火墙版本
+      sudo ufw version
+    5.默认允许外部访问本机
+      sudo ufw default allow
+    6.默认拒绝外部访问主机
+      sudo ufw default deny
+    7.允许外部访问53端口
+      sudo ufw allow 53
+    8.拒绝外部访问53端口
+      sudo ufw deny 53
+    9.允许某个IP地址访问本机所有端口
+      sudo ufw allow from 192.168.0.1
