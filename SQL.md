@@ -138,6 +138,6 @@
     9.允许某个IP地址访问本机所有端口
       sudo ufw allow from 192.168.0.1
 
-### Ubuntu 22 更新 snap-store
+# Ubuntu 22 更新 snap-store
     1. killall snap-store
     2. sudo snap refresh snap-store
