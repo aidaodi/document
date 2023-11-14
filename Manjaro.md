@@ -19,7 +19,8 @@
 15. [Manjaro安装详细教程——备份资料](https://www.vinchin.com/blog/vinchin-technique-share-details.html?id=16366)
 16. [Manjaro Linux系统安装配置，一篇小白必看入门指南](https://zhuanlan.zhihu.com/p/462061314)
 17. [Manjaro](https://cloud.tencent.com/developer/techpedia/1979)
-18. [Manjar强制关闭应用](https://blog.csdn.net/weixin_39417324/article/details/114779828)
+18. [Manjaro强制关闭应用](https://blog.csdn.net/weixin_39417324/article/details/114779828)
+19. [Manjaro中文社区](https://linux.zone/category/manjaro-linux)
 
 # Manjaro安装软件遇到的问题
 ```txt
@@ -75,6 +76,12 @@ yay -S unzip
 unzip fileName
 解压到指定路径
 unzip fileName -d dir
+```
+
+```
+Linux下AndroidStudio无权限更新的问题:
+Studio does not have write access to /opt/android-studio. Please run it by a privileged user to update 
+执行一下命令：sudo chown -R $USER:$USER /opt/android-studio
 ```
 
 # Jetpack Compose相关
