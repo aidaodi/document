@@ -47,6 +47,7 @@ Hotkey=CTRL_SHIFT_)
 # 一些常用的命令
 ```bash
 ln -s ../buildSrc buildSrc //文件夹软连接 
+git update-index --assume-unchanged .\buildSrc\
 ```
 
 ```bash
