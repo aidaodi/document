@@ -114,3 +114,9 @@ Studio does not have write access to /opt/android-studio. Please run it by a pri
 1. [MPAndroidChart的LineChart（折线图）的个人学习经验](https://www.cnblogs.com/lll333study/p/13698291.html)
 2. [安卓图形之MPAndroidChart3.0详解四——案例篇（限制线和覆盖物，组合图）](https://blog.csdn.net/qq_43332570/article/details/103314238)
 3. [安卓图形之MPAndroidChart3.0详解一——折线图](https://blog.csdn.net/qq_43332570/article/details/103180779)
+
+# Git
+```
+git把已添加到跟踪的文件加入ignore
+git rm --cached filePath
+```
