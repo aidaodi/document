@@ -43,6 +43,15 @@ Hotkey=CTRL_SHIFT_)
 6. 然后保存文件，重新登陆即可
 ```
 
+```
+Manjaro配置Wireguard
+uname -a //查看内核
+yay -S linux-headers //安装Wireguard内核，需要安装与系统内核相同版本的内核
+yay -S wireguard-tools
+Manjaro启动wireguard
+wg-quick up mopeng
+```
+
 
 # 一些常用的命令
 ```bash
@@ -119,14 +128,12 @@ Studio does not have write access to /opt/android-studio. Please run it by a pri
 ```
 git把已添加到跟踪的文件加入ignore
 git rm --cached filePath
+```
 
 ```
 AndroidStudio每次提交都需要输入帐号密码修改
 git config --global credential.helper store
 ```
-
-```
-
 
 # 向日葵
 ```
