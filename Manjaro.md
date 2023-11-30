@@ -120,3 +120,8 @@ Studio does not have write access to /opt/android-studio. Please run it by a pri
 git把已添加到跟踪的文件加入ignore
 git rm --cached filePath
 ```
+
+# 向日葵
+```
+https://blog.csdn.net/P_LarT/article/details/127423101
+```
