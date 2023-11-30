@@ -119,7 +119,14 @@ Studio does not have write access to /opt/android-studio. Please run it by a pri
 ```
 git把已添加到跟踪的文件加入ignore
 git rm --cached filePath
+
 ```
+AndroidStudio每次提交都需要输入帐号密码修改
+git config --global credential.helper store
+```
+
+```
+
 
 # 向日葵
 ```
