@@ -114,6 +114,11 @@ Studio does not have write access to /opt/android-studio. Please run it by a pri
 1. [在Manjaro Linux上编译Android源码（1）](https://www.bilibili.com/read/cv12505660/)
 2. [史上最简最全，Android AOSP源码阅读+编译环境这一篇就够了](https://zhuanlan.zhihu.com/p/574856795?utm_id=0)
 
+```
+在AndroidStudio中统计代码行数
+find ./app/src/main/java/com/v2effistation -name "*.java" -or -name "*.kt" | xargs wc -l
+```
+
 
 # VirtualBox
 
