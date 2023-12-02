@@ -129,6 +129,7 @@ find ./app/src/main/java/com/v2effistation -name "*.java" -or -name "*.kt" | xar
 1. [MPAndroidChart的LineChart（折线图）的个人学习经验](https://www.cnblogs.com/lll333study/p/13698291.html)
 2. [安卓图形之MPAndroidChart3.0详解四——案例篇（限制线和覆盖物，组合图）](https://blog.csdn.net/qq_43332570/article/details/103314238)
 3. [安卓图形之MPAndroidChart3.0详解一——折线图](https://blog.csdn.net/qq_43332570/article/details/103180779)
+4. [Android 一步步实现曲线图、折线图、柱状图、雷达图，动态心跳图](https://blog.csdn.net/gao511147456/article/details/108412584)
 
 # Git
 ```
@@ -144,4 +145,9 @@ git config --global credential.helper store
 # 向日葵
 ```
 https://blog.csdn.net/P_LarT/article/details/127423101
+```
+
+# 油猴
+```
+https://greasyfork.org/zh-CN
 ```
