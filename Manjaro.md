@@ -96,6 +96,11 @@ Studio does not have write access to /opt/android-studio. Please run it by a pri
 执行一下命令：sudo chown -R $USER:$USER /opt/android-studio
 ```
 
+```
+进程管理命令
+gnome-system-monitor
+```
+
 # Jetpack Compose相关
 
 1. [Jetpack-Compose详解](https://blog.csdn.net/m0_37667770/article/details/114542808)
