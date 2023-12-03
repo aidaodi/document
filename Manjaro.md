@@ -22,6 +22,7 @@
 18. [Manjaro强制关闭应用](https://blog.csdn.net/weixin_39417324/article/details/114779828)
 19. [Manjaro中文社区](https://linux.zone/category/manjaro-linux)
 20. [Manjaro配置大全](https://ispacesoft.com/238303.html)
+21. [Manjaro KDE 调教配置及美化](https://zhuanlan.zhihu.com/p/460826583?utm_id=0)
 
 # Manjaro安装软件遇到的问题
 ```txt
