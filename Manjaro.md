@@ -95,6 +95,11 @@ Linux下AndroidStudio无权限更新的问题:
 Studio does not have write access to /opt/android-studio. Please run it by a privileged user to update 
 执行一下命令：sudo chown -R $USER:$USER /opt/android-studio
 ```
+```
+Manjaro打开系统监视器
+gnome-system-monitor
+```
+
 
 # Jetpack Compose相关
 
