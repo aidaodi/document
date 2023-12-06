@@ -23,6 +23,7 @@
 19. [Manjaro中文社区](https://linux.zone/category/manjaro-linux)
 20. [Manjaro配置大全](https://ispacesoft.com/238303.html)
 21. [Manjaro KDE 调教配置及美化](https://zhuanlan.zhihu.com/p/460826583?utm_id=0)
+22. [zsh配置](https://zhuanlan.zhihu.com/p/441676276?utm_id=0)
 
 # Manjaro安装软件遇到的问题
 ```txt
@@ -100,6 +101,11 @@ Manjaro打开系统监视器
 gnome-system-monitor
 ```
 
+
+```
+进程管理命令
+gnome-system-monitor
+```
 
 # Jetpack Compose相关
 
