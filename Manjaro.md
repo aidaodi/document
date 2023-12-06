@@ -157,3 +157,15 @@ https://blog.csdn.net/P_LarT/article/details/127423101
 ```
 https://greasyfork.org/zh-CN
 ```
+
+# Typora
+```
+Typora添加UML图
+在Typora中输入"```mermaid",就会初始化一张空白图
+时序图：
+语法解释：->> 代表实线箭头，-->> 则代表虚线。
+   sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+```
+1. [使用 Typora 画图（类图、流程图、时序图）](https://zhuanlan.zhihu.com/p/172635547?utm_id=0)
