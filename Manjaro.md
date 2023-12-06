@@ -24,6 +24,7 @@
 20. [Manjaro配置大全](https://ispacesoft.com/238303.html)
 21. [Manjaro KDE 调教配置及美化](https://zhuanlan.zhihu.com/p/460826583?utm_id=0)
 22. [zsh配置](https://zhuanlan.zhihu.com/p/441676276?utm_id=0)
+23. [Manjaro Linux下炫酷zsh的安装配置](https://linux.zone/1306)
 
 # Manjaro安装软件遇到的问题
 ```txt
