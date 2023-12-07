@@ -176,3 +176,4 @@ Typora添加UML图
     John-->>Alice: Great!
 ```
 1. [使用 Typora 画图（类图、流程图、时序图）](https://zhuanlan.zhihu.com/p/172635547?utm_id=0)
+2. [Picgo + Typora配置](https://zhuanlan.zhihu.com/p/644127992)
