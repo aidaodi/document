@@ -104,7 +104,7 @@ gnome-system-monitor
 ```
 
 ```text
-Manjaro设置WireGuard开机执行wg-quick upmigl
+Manjaro设置WireGuard开机执行wg-quick up
 打开终端，输入以下命令创建一个 systemd 服务文件：
 sudo vim /etc/systemd/system/wg-quick-up.service
 在文件中输入以下内容：
