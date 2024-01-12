@@ -1,4 +1,4 @@
- 
+
 # Manjaro相关
 
 1. [Manjaro/Arch 软件配置安装](https://blog.csdn.net/weixin_52802958/article/details/118368908)
@@ -34,7 +34,7 @@
 安装WPS：
 yay -S wps-office-cn wps-office-mui-zh-cn
 需要先安装base-devel: sudo pacman -S base-devel
-``` 
+```
 ```base
 搜狗输入法快捷键冲突解决:
 1. 首先打开搜狗的设置文档
@@ -186,6 +186,7 @@ android中一些常用的命令
 adb shell pidof packagename //在adb命令中查看某个包的进程，查看此程序是否在运行
 adb logcat | grep "packagename" //在adb命令中查看某个包的日志
 adb pull /devicepath /localpath //从设备复制文件到本地
+adb shell rm file_path
 ```
 
 
