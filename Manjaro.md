@@ -216,6 +216,8 @@ git config --global credential.helper store
 
 github token:
 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
+
+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
 ```
 
 # 向日葵
