@@ -404,3 +404,5 @@ rustup component add rust-src
 rustup toolchain install nightly
 
 ```
+
+1. [Rust语言实战](https://practice-zh.course.rs/why-exercise.html)
