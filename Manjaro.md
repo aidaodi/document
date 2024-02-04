@@ -411,3 +411,8 @@ rustup toolchain install nightly
 
 1. [Rust语言实战](https://practice-zh.course.rs/why-exercise.html)
 2. [Rust语言圣经](https://course.rs/into-rust.html)
+
+## Linux
+1. [Linux软件网](https://www.linuxpack.net/)
+2. [Linux命令大全(手册)](https://www.linuxcool.com/)
+3. [Linux教程网](https://www.linuxjiaocheng.com/)
