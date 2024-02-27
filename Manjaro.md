@@ -418,6 +418,7 @@ rustup toolchain install nightly
 6. [Rust包管理网站](https://crates.io/)
 7. [Rust语言文档](https://prev.rust-lang.org/zh-CN/documentation.html)
 8. [Rust交叉编译](https://www.jtianling.com/cross-compile-with-rust.html)
+9. [Dioxus 中文网](https://www.dioxus.cn/docs/intro)
 
 ## Linux
 1. [Linux软件网](https://www.linuxpack.net/)
