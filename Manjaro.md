@@ -429,3 +429,6 @@ rustup toolchain install nightly
 
 ## VPN
 1. [v2ray免费节点](https://www.v2rayfree.eu.org/)
+
+## 可视化
+1. [Grafana](https://grafana.com/zh-cn/grafana/?pg=graf&plcmt=hero-btn-1)
