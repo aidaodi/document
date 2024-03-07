@@ -421,6 +421,7 @@ rustup toolchain install nightly
 8. [Rust交叉编译](https://www.jtianling.com/cross-compile-with-rust.html)
 9. [Dioxus 中文网](https://www.dioxus.cn/docs/intro)
 10. [Dioxus开发指南](https://dioxus.mrxzx.info/docs/setup.html)
+11. [Diesel 基础](https://blog.csdn.net/chinus_yan/article/details/130529036)
 
 ## Linux
 1. [Linux软件网](https://www.linuxpack.net/)
@@ -429,3 +430,6 @@ rustup toolchain install nightly
 
 ## VPN
 1. [v2ray免费节点](https://www.v2rayfree.eu.org/)
+
+## 可视化
+1. [Grafana](https://grafana.com/zh-cn/grafana/?pg=graf&plcmt=hero-btn-1)
