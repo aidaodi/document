@@ -74,6 +74,3 @@ B.Android程序包使用的数字证书能够是自签名的，不须要一个�
 C.假设要正式公布一个Android程序，能够使用集成开发工具生成的调试证书来公布
 D.数字证书都是有有效期的。Android仅仅是在应用程序安装的时候才会检查证书的有效期。假设程序已经安装在系统中，即使证书过期也不会影响程序的正常功能。
 
-wget -N --no-check-certificate
-https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x
-ssr.sh && bash ssr.sh
