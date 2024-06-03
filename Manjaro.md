@@ -443,6 +443,11 @@ yay -S xdotool
 Windows下Rust编译无法链接到sqlite3.lib解决，把sqlite.dll复制到.cargo/bin目录下
 ```
 
+```shell
+## 静态编译
+RUSTFLAGS='-C target-feature=+crt-static' cargo build --release --target=armv7-unknown-linux-gnueabihf 
+```
+
 ## Linux
 1. [Linux软件网](https://www.linuxpack.net/)
 2. [Linux命令大全(手册)](https://www.linuxcool.com/)
