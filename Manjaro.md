@@ -261,6 +261,9 @@ github token:
 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
 
 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
+
+跟踪但是不提交某个文件： 
+git update-index --assume-unchanged 您的文件
 ```
 
 ```tex
