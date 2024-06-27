@@ -1,0 +1,82 @@
+1. 讲讲android四大基本组件，并说说他们的生命周期
+2. 请说一下，你常用的布局，并说出它们各自的优缺点
+3. 请解释一下在单线程模型中Message,Handler,MessageQueue,Looper之间的关系
+4. 请讲一下自己使用RecyclerView的心得
+5. 网络请求使用的是什么框架，简单讲一下Retrofit原理
+6. 什么事ANR,说说造成ANR的几种情况
+7. 是否使用过Kotlin中的顶级方法，扩展方法，高阶函数。并说说使用心得。
+8. 说说对Kotlin协程的理解
+9. 说说Kotlin中集合常用的方法
+
+10. android关于service生命周期onCreate()和onStart()说法正确是(多选，ad)
+    A. 当第一次开启时候先调用onCreate()和onStart()方法
+	B. 当第一次开启时只会调用onCreate()方法
+	C. 假如service已经开启，将先后调用onCreate()和onStart()方法
+	D. 假如service已经开启，只会执行onStart(),不再执行onCreate()方法
+	
+11. Handler是线程与Activity同学桥梁，假如线程处理不妥，你机器就会变慢，那么线程销毁方法是(a)
+    A. onDestroy()
+	B. onClear()
+	C. onFinish()
+	D. onStop()
+	
+12. Intent传递数据时，一下数据类型哪些能够被传递(a,c,d)
+    A. Serializable
+	B. CharSequence
+	C. Parcelable
+	D. Bundle
+	
+13. android 是如何组织Activity 的？(a)
+    a. 以栈的方式组式Activity
+    b. 以队列的方式组织Activity
+    c. 以树形方式组织Activity
+    d. 以链式方式组织Activity
+	
+14 关于适配器的说法正确的是？(b)
+   a. 它主要是用来存储数据
+   b. 它主要用来把数据绑定到组件上
+   c. 它主要用来解析数据
+   d. 它主要用来存储xml 数据
+   
+15. 关于BroadcastReceiver 的说法不正确的是？(b)
+    a. 是用来接收广播Intent 的
+    b. 一个广播Intent 只能被一个订阅了此广播的BroadcastReceiver 所接收
+    c. 对有序广播，系统会根据接收者声明的优先级别按顺序逐个执行接收者
+    d. 接收者声明的优先级别在的android:priority 属性中声明，数值越大优先级别越高
+	
+16. 下面关于Android dvm的进程和Linux的进程,应用程序的进程说法正确的是？(d)
+    a. DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,不一定拥有一个独立的Dalvik虚拟机实例.而每一个DVM都是在Linux中的一个进程,所以说可以认为是同一个概念.
+    b. DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,不一定拥有一个独立的Dalvik虚拟机实例.而每一个DVM不一定都是在Linux 中的一个进程,所以说不是一个概念.
+    c. DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,都拥有一个独立的Dalvik 虚拟机实例.而每一个DVM 不一定都是在Linux 中的一个进程,所以说不是一个概念.
+    d. DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,都拥有一个独立的Dalvik虚拟机实例.而每一个DVM都是在Linux 中的一个进程,所以说可以认为是同一个概念.
+
+17. Activity启动模式有哪几种
+    Standard 模式是系统默认的启动模式，一般我们 app中大部分页面都是由该模式的页面构成的，比较常见的场景是：社交应用中，点击查看用户A信息->查看用户A粉丝->在粉丝中挑选查看用户B信息->查看用户A粉丝…这种情况下一般我们需要保留用户操作 Activity 栈的页面所有执行顺序。
+    SingleTop 模式一般常见于社交应用中的通知栏行为功能，例如：App 用户收到几条好友请求的推送消息，需要用户点击推送通知进入到请求者个人信息页，将信息页设置为 SingleTop 模式就可以增强复用性。
+    SingleTask 模式一般用作应用的首页，例如浏览器主页，用户可能从多个应用启动浏览器，但主界面仅仅启动一次，其余情况都会走onNewIntent，并且会清空主界面上面的其他页面。
+    SingleInstance 模式常应用于独立栈操作的应用，如闹钟的提醒页面，当你在A应用中看视频时，闹钟响了，你点击闹钟提醒通知后进入提醒详情页面，然后点击返回就再次回到A的视频页面，这样就不会过多干扰到用户先前的操作了
+	
+18. 关于Handler的说法不正确的是( A )
+    A、它实现不同进程间通信的一种机制
+    B、它避免了在新线程中刷新UI的操作
+    C、它采用队列的方式来存储Message
+    D、它实现不同线程间通信的一种机制
+	
+19.下列关于IntentService与Service的关系描写叙述错误的是（CD）
+A. IntentService是Service的子类
+B. IntentService在执行时会启动新的线程来执行任务
+C. 启动方式不同
+D.没有差别
+
+20.下列关于Android数字签名描写叙述错误的是：（C）
+A.全部的应用程序都必须有数字证书。Android系统不会安装一个没有数字证书的应用程序
+B.Android程序包使用的数字证书能够是自签名的，不须要一个权威的数字证书机构签名认证
+C.假设要正式公布一个Android程序，能够使用集成开发工具生成的调试证书来公布
+D.数字证书都是有有效期的。Android仅仅是在应用程序安装的时候才会检查证书的有效期。假设程序已经安装在系统中，即使证书过期也不会影响程序的正常功能。
+
+wget -N --no-check-certificate
+https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x
+ssr.sh && bash ssr.sh
+
+
+1. 鸿蒙软总线： 是一种可以连接处于tong yi
