@@ -57,6 +57,8 @@ Manjaro配置Wireguard
 uname -a //查看内核
 yay -S linux-headers //安装Wireguard内核，需要安装与系统内核相同版本的内核
 yay -S wireguard-tools
+将配置文件复制到：
+/etc/wireguard
 Manjaro启动wireguard
 wg-quick up mopeng
 ```
@@ -391,6 +393,9 @@ adb pull /sdcard/logs/today.tar.gz /localpath
 adb删除文件
 adb shell rm /filePath
 adb shell rm -r /directoryPath
+
+adb查看设备分辨率
+adb shell wm size
 ```
 
 ## Go代理超时解决
